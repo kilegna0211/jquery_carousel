@@ -1,0 +1,57 @@
+body {
+  background-color: #ede8e8;
+  font-family: georgia, serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 100px;
+  color: #bcb7b7;
+  text-shadow: 2px 2px 2px black;
+}
+
+#carousel {
+  border: solid 4px black;
+  box-shadow: 8px 8px 6px #bcb7b7;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+ul {
+  position: relative;
+  width: 4000px;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+.flecheleft {
+  position: absolute;
+  left: 0;
+  top: 230px;
+}
+
+.flecheright {
+  position: absolute;
+  right: 0;
+  top: 230px;
+}
+
+.flecheleft:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.flecheright:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
